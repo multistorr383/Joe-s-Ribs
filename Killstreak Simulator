@@ -1,6 +1,7 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Joe's Ribs", HidePremium = false, SaveConfig = true, ConfigFolder = "Joe's Ribs Stuffs", IntroText = "Joe's Ribs", IntroEnabled = true})
 
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() --lib dont forget idiots
+local Window = OrionLib:MakeWindow({Name = "Joe's Ribs", HidePremium = false, SaveConfig = true, ConfigFolder = "Joe's Ribs Stuffs", IntroText = "Joe's Ribs", IntroEnabled = true})
 
 local TabZero = Window:MakeTab({
     Name = "Credits",
